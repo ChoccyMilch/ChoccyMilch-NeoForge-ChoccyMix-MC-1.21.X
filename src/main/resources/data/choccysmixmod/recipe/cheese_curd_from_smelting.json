@@ -1,8 +1,10 @@
 {
   "type": "minecraft:smelting",
-  "group": "Food",
-  "category": "food",
-  "ingredient": "minecraft:milk_bucket",
+  "category": "misc",
+  "group": "Cheese",
+  "ingredient": {
+    "item": "minecraft:milk_bucket"
+  },
   "result": {
     "id": "choccysmixmod:cheese_curd",
     "count": 9

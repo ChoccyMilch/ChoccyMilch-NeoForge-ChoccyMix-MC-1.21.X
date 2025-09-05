@@ -73,6 +73,8 @@ public class ModItems {
 
     public static final DeferredItem<Item> CHEDDARITE = ITEMS.registerItem("cheddarite", Item::new, new Item.Properties());
 
+    public static final DeferredItem<Item> RAW_CHEDDARITE = ITEMS.registerItem("raw_cheddarite", Item::new, new Item.Properties());
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

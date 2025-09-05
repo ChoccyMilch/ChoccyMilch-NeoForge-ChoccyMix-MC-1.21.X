@@ -1,8 +1,11 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "food",
+  "category": "misc",
+  "group": "Cheese",
   "key": {
-    "C": "choccysmixmod:cheese_curd"
+    "C": {
+      "item": "choccysmixmod:cheese_curd"
+    }
   },
   "pattern": [
     "CCC",

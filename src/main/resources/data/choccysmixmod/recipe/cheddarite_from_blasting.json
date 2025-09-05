@@ -1,8 +1,10 @@
 {
   "type": "minecraft:blasting",
-  "group": "Ore",
   "category": "misc",
-  "ingredient": "choccysmixmod:raw_cheddarite",
+  "group": "Cheddarite",
+  "ingredient": {
+    "item": "choccysmixmod:raw_cheddarite"
+  },
   "result": {
     "id": "choccysmixmod:cheddarite",
     "count": 1

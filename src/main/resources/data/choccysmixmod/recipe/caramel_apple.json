@@ -1,10 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
-  "category": "food",
+  "category": "misc",
+  "group": "Caramel",
   "key": {
-    "C": "choccysmixmod:caramel",
-    "A": "minecraft:apple",
-    "S": "minecraft:stick"
+    "C": {
+      "item": "choccysmixmod:caramel"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
   },
   "pattern": [
     " S ",

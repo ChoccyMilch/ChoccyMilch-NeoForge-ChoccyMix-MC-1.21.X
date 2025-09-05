@@ -20,25 +20,30 @@ public class ModBlocks {
 
     public static final DeferredBlock<Block> CHEESE_BLOCK = registerBlock("cheese_block", Block::new,
             BlockBehaviour.Properties.of()
-                    .strength(1.0f)
-                    .requiresCorrectToolForDrops()
+                    .strength(0.5f)
                     .sound(SoundType.SLIME_BLOCK));
 
     public static final DeferredBlock<Block> CHEESIUM_BLOCK = registerBlock("cheesium_block", Block::new,
             BlockBehaviour.Properties.of()
-                    .strength(50.0f, 1200.0f)
+                    .strength(5.0f, 1200.0f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.NETHERITE_BLOCK));
 
     public static final DeferredBlock<Block> CHEDDARITE_BLOCK = registerBlock("cheddarite_block", Block::new,
             BlockBehaviour.Properties.of()
-                    .strength(60.0f, 1400.0f)
+                    .strength(5.0f, 1400.0f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.ANCIENT_DEBRIS));
 
     public static final DeferredBlock<Block> CHEDDARITE_ORE = registerBlock("cheddarite_ore", Block::new,
             BlockBehaviour.Properties.of()
-                    .strength(60.0f, 1400.0f)
+                    .strength(30.0f, 1200.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.ANCIENT_DEBRIS));
+
+    public static final DeferredBlock<Block> CHEDDARITE_DEEPSLATE_ORE = registerBlock("cheddarite_deepslate_ore", Block::new,
+            BlockBehaviour.Properties.of()
+                    .strength(30.0f, 1200.0f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.ANCIENT_DEBRIS));
 

@@ -1,14 +1,17 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "food",
-  "key": {
-    "A": "minecraft:apple",
-    "E": "minecraft:egg",
-    "S": "minecraft:sugar"
-  },
-  "pattern": [
-    "AS ",
-    " E "
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "Food",
+  "ingredients": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    }
   ],
   "result": {
     "count": 1,

@@ -34,6 +34,8 @@ public class ModCreativeModeTabs {
                 output.accept(ModBlocks.CHEESE_BLOCK);
                 output.accept(ModBlocks.CHEDDARITE_BLOCK);
                 output.accept(ModBlocks.CHEESIUM_BLOCK);
+                output.accept(ModBlocks.CHEDDARITE_ORE);
+                output.accept(ModBlocks.CHEDDARITE_DEEPSLATE_ORE);
             }).build());
 
     // Choccy's Ingredients creative mode tab
@@ -44,6 +46,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.CURD);
                 output.accept(ModItems.CHEDDARITE);
                 output.accept(ModItems.CHEESIUM);
+                output.accept(ModItems.RAW_CHEDDARITE);
             }).build());
 
     public static void register(IEventBus eventBus) {
