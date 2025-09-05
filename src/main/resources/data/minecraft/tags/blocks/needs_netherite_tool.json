@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "replace": false,
+      "values": [
+        "choccysmixmod:cheddarite_ore",
+        "choccysmixmod:cheddarite_deepslate_ore"
+      ]
+    }
+  ]
+}

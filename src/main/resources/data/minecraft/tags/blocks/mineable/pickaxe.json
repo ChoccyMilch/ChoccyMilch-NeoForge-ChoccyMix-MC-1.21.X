@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "choccysmixmod:cheesium_block",
+    "choccysmixmod:cheddarite_ore",
+    "choccysmixmod:cheddarite_deepslate_ore",
+    "choccysmixmod:cheddarite_block"
+  ]
+}

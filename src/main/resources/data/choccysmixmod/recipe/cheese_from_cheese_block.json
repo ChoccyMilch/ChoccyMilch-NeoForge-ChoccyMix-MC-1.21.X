@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "group": "cheese",
+  "ingredients": [
+    "choccysmixmod:cheese_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "choccysmixmod:cheese"
+  }
+}

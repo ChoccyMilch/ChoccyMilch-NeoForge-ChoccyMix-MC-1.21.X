@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "cheddarite",
+  "category": "misc",
+  "ingredients": [
+    "choccysmixmod:cheddarite_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "choccysmixmod:cheddarite"
+  }
+}
