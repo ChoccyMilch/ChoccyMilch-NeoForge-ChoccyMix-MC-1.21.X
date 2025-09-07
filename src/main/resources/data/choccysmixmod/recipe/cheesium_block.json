@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "Cheesium",
+  "key": {
+    "C": {
+      "item": "choccysmixmod:cheesium"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "choccysmixmod:cheesium_block"
+  }
+}

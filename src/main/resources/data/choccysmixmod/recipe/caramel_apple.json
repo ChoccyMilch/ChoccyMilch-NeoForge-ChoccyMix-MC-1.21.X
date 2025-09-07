@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "Caramel",
+  "key": {
+    "C": {
+      "item": "choccysmixmod:caramel"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    " S ",
+    "CAC",
+    " C "
+  ],
+  "result": {
+    "count": 1,
+    "id": "choccysmixmod:caramel_apple"
+  }
+}

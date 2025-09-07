@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "Cheese",
+  "key": {
+    "C": {
+      "item": "choccysmixmod:cheese"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "choccysmixmod:cheese_block"
+  }
+}

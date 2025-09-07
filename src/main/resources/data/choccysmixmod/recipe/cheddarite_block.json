@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "Cheddarite",
+  "key": {
+    "C": {
+      "item": "choccysmixmod:cheddarite"
+    }
+  },
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "choccysmixmod:cheddarite_block"
+  }
+}

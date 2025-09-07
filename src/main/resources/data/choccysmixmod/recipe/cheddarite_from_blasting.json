@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "group": "Cheddarite",
+  "ingredient": {
+    "item": "choccysmixmod:raw_cheddarite"
+  },
+  "result": {
+    "id": "choccysmixmod:cheddarite",
+    "count": 1
+  },
+  "experience": 0.25,
+  "cookingtime": 400
+}
