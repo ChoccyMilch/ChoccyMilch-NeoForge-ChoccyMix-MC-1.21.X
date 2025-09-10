@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "group": "Bacon",
+  "ingredient": {
+    "item": "choccysmixmod:raw_pork"
+  },
+  "result": {
+    "id": "choccysmixmod:cooked_bacon",
+    "count": 1
+  },
+  "experience": 0.15,
+  "cookingtime": 200
+}
