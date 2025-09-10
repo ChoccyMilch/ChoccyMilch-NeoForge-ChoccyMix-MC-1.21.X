@@ -27,6 +27,11 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.APPLE_PIE);
                 output.accept(ModItems.RAW_BACON);
                 output.accept(ModItems.COOKED_BACON);
+                output.accept(ModItems.CANDIED_BACON);
+                output.accept(ModItems.CHOCCY_MILCH);
+                output.accept(ModItems.LOADED_POTATO);
+
+
             }).build());
 
     // Blocks creative mode tab
@@ -50,7 +55,6 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.CHEDDARITE);
                 output.accept(ModItems.CHEESIUM);
                 output.accept(ModItems.RAW_CHEDDARITE);
-                output.accept(ModItems.CHOCCY_MILCH);
             }).build());
 
     // Choccy's Equipment & Tools creative mode tab
