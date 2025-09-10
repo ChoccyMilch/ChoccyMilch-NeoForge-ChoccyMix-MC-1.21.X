@@ -7,6 +7,11 @@
   "item.choccysmixmod.cheddarite": "Cheddarite",
   "item.choccysmixmod.raw_cheddarite": "Raw Cheddarite",
   "item.choccysmixmod.caramel": "Caramel",
+  "item.choccysmixmod.raw_bacon": "Raw Bacon",
+  "item.choccysmixmod.cooked_bacon": "Cooked Bacon",
+  "item.choccysmixmod.choccy_milch": "Choccy Milch",
+
+  "item.choccysmixmod.magic_cheese_grater": "Magic Cheese Grater",
 
   "block.choccysmixmod.cheese_block": "Block of Cheese",
   "block.choccysmixmod.cheesium_block": "Block of Cheesium",
@@ -16,5 +21,6 @@
 
   "creativetab.choccysmixmod.choccys_treats": "Choccy's Treats",
   "creativetab.choccysmixmod.choccys_blocks": "Choccy's Blocks",
-  "creativetab.choccysmixmod.choccys_ingredients": "Choccy's Ingredients"
+  "creativetab.choccysmixmod.choccys_ingredients": "Choccy's Ingredients",
+  "creativetab.choccysmixmod.choccys_equipment": "Choccy's Equipment & Tools"
 }

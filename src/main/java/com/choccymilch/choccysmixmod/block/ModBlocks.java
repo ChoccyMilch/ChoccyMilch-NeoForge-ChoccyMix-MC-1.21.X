@@ -18,7 +18,7 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(ChoccysMixMod.MOD_ID);
 
-    public static final DeferredBlock<Block> CHEESE_BLOCK = registerBlock("cheese_block", Block::new,
+    public static final Supplier<Block> CHEESE_BLOCK = registerBlock("cheese_block", Block::new,
             BlockBehaviour.Properties.of()
                     .strength(0.5f)
                     .sound(SoundType.SLIME_BLOCK));

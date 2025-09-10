@@ -10,6 +10,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredRegister;
+import com.choccymilch.choccysmixmod.item.custom.*;
 
 import java.util.function.Supplier;
 
@@ -21,9 +22,11 @@ public class ModCreativeModeTabs {
             .title(Component.translatable("creativetab.choccysmixmod.choccys_treats"))
             .displayItems((parameters, output) -> {
                 output.accept(ModItems.CHEESE);
-                output.accept((ItemLike) ModItems.CARAMEL);
-                output.accept((ItemLike) ModItems.CARAMEL_APPLE);
-                output.accept((ItemLike) ModItems.APPLE_PIE);
+                output.accept(ModItems.CARAMEL);
+                output.accept(ModItems.CARAMEL_APPLE);
+                output.accept(ModItems.APPLE_PIE);
+                output.accept(ModItems.RAW_BACON);
+                output.accept(ModItems.COOKED_BACON);
             }).build());
 
     // Blocks creative mode tab
@@ -31,7 +34,7 @@ public class ModCreativeModeTabs {
             .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ChoccysMixMod.MOD_ID, "choccys_treats_tab"))
             .title(Component.translatable("creativetab.choccysmixmod.choccys_blocks"))
             .displayItems((parameters, output) -> {
-                output.accept(ModBlocks.CHEESE_BLOCK);
+                output.accept((ItemLike) ModBlocks.CHEESE_BLOCK);
                 output.accept(ModBlocks.CHEDDARITE_BLOCK);
                 output.accept(ModBlocks.CHEESIUM_BLOCK);
                 output.accept(ModBlocks.CHEDDARITE_ORE);
@@ -47,6 +50,15 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.CHEDDARITE);
                 output.accept(ModItems.CHEESIUM);
                 output.accept(ModItems.RAW_CHEDDARITE);
+                output.accept(ModItems.CHOCCY_MILCH);
+            }).build());
+
+    // Choccy's Equipment & Tools creative mode tab
+    public static final Supplier<CreativeModeTab> CHOCCYS_EQUIPMENT_TAB = CREATIVE_MODE_TAB.register("choccys_equipment_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CURD.get()))
+            .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ChoccysMixMod.MOD_ID, "choccys_ingredients_tab"))
+            .title(Component.translatable("creativetab.choccysmixmod.choccys_equipment"))
+            .displayItems((parameters, output) -> {
+                output.accept(ModItems.MAGIC_CHEESE_GRATER);
             }).build());
 
     public static void register(IEventBus eventBus) {
