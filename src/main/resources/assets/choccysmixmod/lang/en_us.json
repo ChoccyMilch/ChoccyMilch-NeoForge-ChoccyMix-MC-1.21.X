@@ -24,5 +24,18 @@
   "creativetab.choccysmixmod.choccys_treats": "Choccy's Treats",
   "creativetab.choccysmixmod.choccys_blocks": "Choccy's Blocks",
   "creativetab.choccysmixmod.choccys_ingredients": "Choccy's Ingredients",
-  "creativetab.choccysmixmod.choccys_equipment": "Choccy's Equipment & Tools"
+  "creativetab.choccysmixmod.choccys_equipment": "Choccy's Equipment & Tools",
+
+  "tooltip.choccysmixmod.shift_down": "Press §eShift§r for more information",
+  "tooltip.choccysmixmod.magic_grater": "This grater feels powerful; for it is imbued with the power of the greatest alchemist.",
+  "tooltip.choccysmixmod.cheese": "Smelly...",
+  "tooltip.choccysmixmod.caramel": "Deliciously sweet, horribly sticky",
+  "tooltip.choccysmixmod.caramel_apple": "Deliciously sweet, and safe from the sticky",
+  "tooltip.choccysmixmod.raw_bacon": "Tempting, but you should cook it first",
+  "tooltip.choccysmixmod.cooked_bacon": "The second best food invention after cheese",
+  "tooltip.choccysmixmod.candied_bacon": "Okay, maybe this is the actual best food invention after cheese...",
+  "tooltip.choccysmixmod.choccy_milch": "The pinnacle of humanities progress...",
+  "tooltip.choccysmixmod.loaded_potato": "One of the best combinations",
+  "tooltip.choccysmixmod.apple_pie": "The smell is irresistible",
+  "tooltip.choccysmixmod.hot_sauce": "The smell scratches at your throat... I don't think you should consume this."
 }

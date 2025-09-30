@@ -30,7 +30,7 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.CANDIED_BACON);
                 output.accept(ModItems.CHOCCY_MILCH);
                 output.accept(ModItems.LOADED_POTATO);
-
+                output.accept(ModItems.HOT_SAUCE);
 
             }).build());
 
@@ -55,10 +55,11 @@ public class ModCreativeModeTabs {
                 output.accept(ModItems.CHEDDARITE);
                 output.accept(ModItems.CHEESIUM);
                 output.accept(ModItems.RAW_CHEDDARITE);
+                output.accept(ModItems.JET_FUEL);
             }).build());
 
     // Choccy's Equipment & Tools creative mode tab
-    public static final Supplier<CreativeModeTab> CHOCCYS_EQUIPMENT_TAB = CREATIVE_MODE_TAB.register("choccys_equipment_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.CURD.get()))
+    public static final Supplier<CreativeModeTab> CHOCCYS_EQUIPMENT_TAB = CREATIVE_MODE_TAB.register("choccys_equipment_tab", () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MAGIC_CHEESE_GRATER.get()))
             .withTabsBefore(ResourceLocation.fromNamespaceAndPath(ChoccysMixMod.MOD_ID, "choccys_ingredients_tab"))
             .title(Component.translatable("creativetab.choccysmixmod.choccys_equipment"))
             .displayItems((parameters, output) -> {

@@ -36,6 +36,12 @@ public class ModFoodProperties {
     public static final FoodProperties CHOCCY_MILCH = new FoodProperties.Builder().nutrition(8).saturationModifier(0.8f)
             .usingConvertsTo(Items.GLASS_BOTTLE).build();
 
+    public static final FoodProperties HOT_SAUCE = new FoodProperties.Builder().nutrition(4).saturationModifier(0.7f)
+            .usingConvertsTo(Items.GLASS_BOTTLE)
+            .effect(new MobEffectInstance(MobEffects.GLOWING, 200, 2), 1.0f)
+            .effect(new MobEffectInstance(MobEffects.CONFUSION, 200, 2), 1.0f)
+            .effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 200, 4), 1.0f).build();
+
 
 }
 
